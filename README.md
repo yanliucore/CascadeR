@@ -16,7 +16,7 @@ Example: Summarizes a bar plot of average claim amounts by region and status.
 ### Purpose: Classifies mental health-related text into sentiment categories using Azure OpenAI.  
 ### How it works:  
 Loads required libraries.  
-Loads a dataset from CSV.  
+Loads a dataset from CSV. (data source: https://www.kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-health)  
 Sets up Azure credentials.  
 Defines a function to interact with Azure OpenAI.  
 Designs a prompt for classifying text into categories (Anxiety, Bipolar, Depression, etc.).  
