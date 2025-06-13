@@ -1,11 +1,8 @@
-# ------------------------------------------------------------------------------
 # Title: Mental Health Sentiment Classification Pipeline using Azure OpenAI
 #
 # Description:
 # This script implements a workflow for classifying mental health-related text 
-# into sentiment categories using Azure OpenAI services. It loads a dataset, 
-# configures Azure credentials, defines a prompt for the LLM, and iteratively 
-# processes text entries to predict probabilities for each mental health category.
+# into sentiment categories using Azure OpenAI services. 
 #
 # Main Steps:
 # 1. Load required R libraries for data manipulation, API interaction, and file I/O.
