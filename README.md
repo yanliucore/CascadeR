@@ -1,9 +1,9 @@
 # Leveraging Large Language Models in R with Three Applications
 
-These three R scripts automate data analysis tasks using Azure OpenAI services: (1) extracting summaries from a ggplot, (2) classifying mental health-related text into sentiment categories, and (3) extracting structured summaries from research documents. Each script sets up Azure authentication, defines a function to interact with the OpenAI API, designs a structured prompt for the large language model (LLM), and processes input data (plots, text, or documents) to return structured outputs such plot descriptions, sentiment probabilities, or article summaries. The workflows are designed for batch processing, error handling, and saving results to CSV files for further analysis.  
+These three R scripts automate data analysis tasks using Azure OpenAI services: (1) extracting summary from a ggplot, (2) classifying mental health-related text into sentiment categories, and (3) extracting structured summaries from research documents. Each script sets up Azure authentication, defines a function to interact with the OpenAI API, designs a structured prompt for the large language model (LLM), and processes input data (plots, text, or documents) to return structured outputs such plot descriptions, sentiment probabilities, or article summaries. The workflows are designed for batch processing, error handling, and saving results to CSV files for further analysis.  
 
 ## Automated Plot Summary and Metadata Extraction  
-### Purpose: Extracts structured metadata (title, axes, legend) and a summary from a plot using Azure OpenAI.  
+### Purpose: Extracts summary from a ggplot using Azure OpenAI.  
 ### How it works:  
 Loads required libraries.  
 Sets up Azure credentials.  
