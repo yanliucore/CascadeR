@@ -1,11 +1,8 @@
-# ------------------------------------------------------------------------------
 # Title: Literature Review Extraction Pipeline using Azure OpenAI
 #
 # Description:
 # This script automates the extraction of structured summaries from a folder of
 # research articles and documents (PDF, PPTX, DOCX, MSG) using Azure OpenAI.
-# It loops through each file, extracts text, sends it to an LLM for structured
-# data extraction, and compiles the results into a CSV file.
 #
 # Main Steps:
 # 1. Load required R libraries for file handling, text extraction, and API calls.
