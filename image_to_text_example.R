@@ -1,10 +1,8 @@
-# Title: Automated Plot Summary and Metadata Extraction using Azure OpenAI
+# Title: Automated Plot Summary Extraction using Azure OpenAI
 #
 # Description:
-# This script defines a workflow to extract summaries and metadata (title, axes, legend)
-# from a given plot using Azure OpenAI services. It configures Azure credentials,
-# defines a chat function for authentication and API calls, and provides a main
-# function (`chat_azure_core_plot`) to analyze a plot and return structured information.
+# This script defines a workflow to extract summaries from a given plot using Azure OpenAI 
+# services. 
 #
 # Main Steps:
 # 1. Load required R libraries for API interaction and data manipulation.
